@@ -1,0 +1,61 @@
+.showcase_container{
+    padding: 50px 0px;
+}
+
+.showcase_container h2{
+    text-align: center;
+}
+
+.car_filter{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.car_filter p{
+    cursor: pointer;
+    color: gray;
+}
+
+.active{
+    color: black;
+}
+
+
+.slider{
+    transition: .3s all ease-in;
+    margin-top: 80px;
+    display: flex;
+    overflow-x: scroll;
+    gap: 20px;
+    width: 1250px;
+    align-items: center;
+    justify-content: center;
+    height: 350px;      
+    scroll-behavior: smooth;
+}
+
+.slider::-webkit-scrollbar{
+    display: none;
+}
+
+.slider_btn_container{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+
+.slider_btn_container button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
